@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "FeedTableViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    FeedTableViewController *feedTableVC = [[FeedTableViewController alloc]init];
+    UINavigationController *feedTableNav = [[UINavigationController alloc]initWithRootViewController:feedTableVC];
+    
     return YES;
 }
 

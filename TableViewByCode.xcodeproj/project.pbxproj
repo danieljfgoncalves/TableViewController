@@ -14,6 +14,7 @@
 		E477A5121AE55E83009E38DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E477A5111AE55E83009E38DA /* Images.xcassets */; };
 		E477A5151AE55E83009E38DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E477A5131AE55E83009E38DA /* LaunchScreen.xib */; };
 		E477A5211AE55E83009E38DA /* TableViewByCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E477A5201AE55E83009E38DA /* TableViewByCodeTests.m */; };
+		E477A52F1AE55F4C009E38DA /* FeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E477A52E1AE55F4C009E38DA /* FeedTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		E477A51A1AE55E83009E38DA /* TableViewByCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewByCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E477A51F1AE55E83009E38DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E477A5201AE55E83009E38DA /* TableViewByCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewByCodeTests.m; sourceTree = "<group>"; };
+		E477A52D1AE55F4C009E38DA /* FeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedTableViewController.h; sourceTree = "<group>"; };
+		E477A52E1AE55F4C009E38DA /* FeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,9 @@
 		E477A4F81AE55E83009E38DA = {
 			isa = PBXGroup;
 			children = (
+				E477A52A1AE55F0A009E38DA /* Model */,
+				E477A52B1AE55F0F009E38DA /* View */,
+				E477A52C1AE55F14009E38DA /* Controller */,
 				E477A5031AE55E83009E38DA /* TableViewByCode */,
 				E477A51D1AE55E83009E38DA /* TableViewByCodeTests */,
 				E477A5021AE55E83009E38DA /* Products */,
@@ -117,6 +123,29 @@
 				E477A51F1AE55E83009E38DA /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E477A52A1AE55F0A009E38DA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E477A52B1AE55F0F009E38DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E477A52C1AE55F14009E38DA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E477A52D1AE55F4C009E38DA /* FeedTableViewController.h */,
+				E477A52E1AE55F4C009E38DA /* FeedTableViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +251,7 @@
 				E477A50D1AE55E83009E38DA /* ViewController.m in Sources */,
 				E477A50A1AE55E83009E38DA /* AppDelegate.m in Sources */,
 				E477A5071AE55E83009E38DA /* main.m in Sources */,
+				E477A52F1AE55F4C009E38DA /* FeedTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
