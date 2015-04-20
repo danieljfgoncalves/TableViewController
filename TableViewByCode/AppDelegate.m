@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 #import "FeedTableViewController.h"
+#import "ProfileViewController.h"
+#import "FavoritesViewController.h"
 
 @interface AppDelegate ()
 
@@ -19,8 +21,22 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    FeedTableViewController *feedTableVC = [[FeedTableViewController alloc]init];
+    FeedTableViewController *feedTableVC = [[FeedTableViewController alloc]initWithStyle:UITableViewStylePlain];
     UINavigationController *feedTableNav = [[UINavigationController alloc]initWithRootViewController:feedTableVC];
+    
+    ProfileViewController *profileVC = [[ProfileViewController alloc]init];
+    UINavigationController *profileNav = [[UINavigationController alloc]initWithRootViewController:profileVC];
+    
+    FavoritesViewController *favoritesVC = [[FavoritesViewController alloc]init];
+    UINavigationController *favoritesNav = [[UINavigationController alloc]initWithRootViewController:favoritesVC];
+    
+    UITabBarController *tabController = [[UITabBarController alloc]init];
+    tabController.viewControllers = @[feedTableNav, profileNav, favoritesNav];
+    
+    // Set Window
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen]bounds]];
+    self.window.rootViewController = tabController;
+    [self.window makeKeyAndVisible];
     
     return YES;
 }

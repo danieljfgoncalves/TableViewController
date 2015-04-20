@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FeedTableViewController : UIViewController
+@interface FeedTableViewController : UITableViewController
+
+@property (strong)NSArray *imageTitleArray;
+@property (strong)NSArray *imageFileNameArray;
+@property (strong)NSArray *imageDetailArray;
+@property (strong)NSArray *imageThumbnailArray;
 
 @end
