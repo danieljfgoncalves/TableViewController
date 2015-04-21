@@ -14,7 +14,6 @@
 		E477A5121AE55E83009E38DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E477A5111AE55E83009E38DA /* Images.xcassets */; };
 		E477A5151AE55E83009E38DA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E477A5131AE55E83009E38DA /* LaunchScreen.xib */; };
 		E477A5211AE55E83009E38DA /* TableViewByCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E477A5201AE55E83009E38DA /* TableViewByCodeTests.m */; };
-		E477A5321AE561A4009E38DA /* BitView.m in Sources */ = {isa = PBXBuildFile; fileRef = E477A5311AE561A4009E38DA /* BitView.m */; };
 		E477A5351AE565F3009E38DA /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E477A5341AE565F3009E38DA /* ProfileViewController.m */; };
 		E477A5381AE56609009E38DA /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E477A5371AE56609009E38DA /* FavoritesViewController.m */; };
 		E477A53B1AE56900009E38DA /* FeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E477A53A1AE56900009E38DA /* FeedTableViewController.m */; };
@@ -45,8 +44,6 @@
 		E477A51A1AE55E83009E38DA /* TableViewByCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewByCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E477A51F1AE55E83009E38DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E477A5201AE55E83009E38DA /* TableViewByCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewByCodeTests.m; sourceTree = "<group>"; };
-		E477A5301AE561A4009E38DA /* BitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitView.h; sourceTree = "<group>"; };
-		E477A5311AE561A4009E38DA /* BitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitView.m; sourceTree = "<group>"; };
 		E477A5331AE565F3009E38DA /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		E477A5341AE565F3009E38DA /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		E477A5361AE56609009E38DA /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
@@ -147,8 +144,6 @@
 		E477A52B1AE55F0F009E38DA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				E477A5301AE561A4009E38DA /* BitView.h */,
-				E477A5311AE561A4009E38DA /* BitView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -274,7 +269,6 @@
 				E477A5381AE56609009E38DA /* FavoritesViewController.m in Sources */,
 				E477A5071AE55E83009E38DA /* main.m in Sources */,
 				E477A5351AE565F3009E38DA /* ProfileViewController.m in Sources */,
-				E477A5321AE561A4009E38DA /* BitView.m in Sources */,
 				E477A53B1AE56900009E38DA /* FeedTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -80,7 +80,6 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
     PhotoViewController *photoVC = [[PhotoViewController alloc]init];
-    UIView *photoView = [[UIView alloc]init];
     photoVC.imageFileName = self.imageFileNameArray[indexPath.row];
     photoVC.imageTitle = self.imageTitleArray[indexPath.row];
     
